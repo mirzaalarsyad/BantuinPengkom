@@ -11,4 +11,4 @@ if(hitungFaktor == 2):
 else:
 	print("Bilangan" + x + "tidak prima.")
 
-#karena bilangan prima hanya punya dua faktor.
+#karena bilangan prima pasti punya dua faktor.
