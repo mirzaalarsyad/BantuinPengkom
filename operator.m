@@ -12,5 +12,5 @@ elseif op == '%'
     fprintf('%d', x);
     fprintf(' %% ');
     fprintf('%d = ', y);
-    fprintf('%d\n', x - y*floor(x/y));
+    fprintf('%d\n', x - y*floor(x/y)); % mod(x,y) = x - y*floor(x/y)     (gatau kenapa mod(x,y) di gua error)
 end
